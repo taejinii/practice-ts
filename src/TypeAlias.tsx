@@ -13,7 +13,7 @@ const TypeAlias = () => {
 
   /**리턴이 없는 함수는 void 타입을 지정해주어야한다 */
   function justConsole(num: number): void {
-    console.log("Result " + num);
+    // console.log("Result " + num);
   }
   justConsole(1);
   return (

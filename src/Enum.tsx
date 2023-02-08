@@ -5,7 +5,7 @@ enum Role {
   GUEST = 100,
 }
 const Enum = () => {
-  console.log("enum", Role.ADMIN);
+  //   console.log("enum", Role.ADMIN);
 
   return (
     <div className="border-2 border-red-300">
